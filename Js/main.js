@@ -36,7 +36,7 @@ function about(){
 
     let myTimeOut = setTimeout(function pop_up(){
         if (confirm("Navigate to mobile site?")) {
-           window.location.href = 'www.youtube.com/';
+           window.location.href = 'index_mobile.html/';
            console.log("Mobile_site...")
         } else {
             console.log("Navigation Error :(")
